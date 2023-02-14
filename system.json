@@ -14,6 +14,8 @@
     {
       "name": "Paweł Ładna",
       "url": "x",
+	    "email": "x",
+	    "discord": "skorban"
       "flags": {}
     }
   ],
@@ -27,7 +29,7 @@
     {
       "name": "heroes",
       "label": "Starter Heroes",
-      "system": "dnd5e",
+      "system": "SimpleMech",
       "path": "packs/heroes.db",
       "type": "Actor",
       "private": false,
@@ -70,28 +72,19 @@
       "flags": {}
     },
     {
-      "name": "backgrounds",
-      "label": "Backgrounds (SRD)",
-      "system": "dnd5e",
+      "name": "pochodzenie",
+      "label": "Pochodzenie",
+      "system": "SimpleMech",
       "path": "packs/backgrounds.db",
       "type": "Item",
       "private": false,
       "flags": {}
     },
     {
-      "name": "classes",
-      "label": "Classes (SRD)",
-      "system": "dnd5e",
+      "name": "klasa",
+      "label": "Klasa postaci",
+      "system": "SimpleMech",
       "path": "packs/classes.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "subclasses",
-      "label": "Subclasses (SRD)",
-      "system": "dnd5e",
-      "path": "packs/subclasses.db",
       "type": "Item",
       "private": false,
       "flags": {}
@@ -106,15 +99,6 @@
       "flags": {}
     },
     {
-      "name": "races",
-      "label": "Racial Features (SRD)",
-      "system": "dnd5e",
-      "path": "packs/races.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
       "name": "monsterfeatures",
       "label": "Monster Features (SRD)",
       "system": "dnd5e",
@@ -124,9 +108,9 @@
       "flags": {}
     },
     {
-      "name": "rules",
-      "label": "Rules (SRD)",
-      "system": "dnd5e",
+      "name": "zasady",
+      "label": "Zasady",
+      "system": "SimpleMech",
       "path": "packs/rules.db",
       "type": "JournalEntry",
       "private": false,
@@ -144,9 +128,9 @@
   ],
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json",
       "flags": {}
     }
   ],
@@ -158,8 +142,8 @@
     }
   ],
   "socket": true,
-  "gridDistance": 5,
-  "gridUnits": "ft",
+  "gridDistance": 1,
+  "gridUnits": "m",
   "primaryTokenAttribute": "attributes.hp",
   "flags": {
     "needsMigrationVersion": "2.1.2",
