@@ -4,7 +4,7 @@
     "templates": {
       "common": {
         "abilities": {
-          "str": {
+          "krzepa": {
             "value": 10,
             "proficient": 0,
             "bonuses": {
@@ -12,7 +12,7 @@
               "save": ""
             }
           },
-          "dex": {
+          "gracja": {
             "value": 10,
             "proficient": 0,
             "bonuses": {
@@ -20,7 +20,7 @@
               "save": ""
             }
           },
-          "con": {
+          "umysl": {
             "value": 10,
             "proficient": 0,
             "bonuses": {
@@ -28,23 +28,7 @@
               "save": ""
             }
           },
-          "int": {
-            "value": 10,
-            "proficient": 0,
-            "bonuses": {
-              "check": "",
-              "save": ""
-            }
-          },
-          "wis": {
-            "value": 10,
-            "proficient": 0,
-            "bonuses": {
-              "check": "",
-              "save": ""
-            }
-          },
-          "cha": {
+          "duch": {
             "value": 10,
             "proficient": 0,
             "bonuses": {
@@ -54,44 +38,26 @@
           }
         },
         "attributes": {
-          "ac": {
+          "dryg": {
             "flat": null,
             "calc": "default",
             "formula": ""
           },
-          "hp": {
+          "zywotnosc": {
             "value": 10,
             "max": null,
             "temp": 0,
             "tempmax": 0
           },
-          "init": {
+          "psionika": {
             "ability": "",
             "bonus": ""
-          },
-          "movement": {
-            "burrow": 0,
-            "climb": 0,
-            "fly": 0,
-            "swim": 0,
-            "walk": 30,
-            "units": "ft",
-            "hover": false
-          }
         },
         "details": {
           "biography": {
             "value": "",
             "public": ""
           }
-        },
-        "traits": {
-          "size": "med",
-          "di": {
-            "value": [],
-            "bypasses": [],
-            "custom": ""
-          },
           "dr": {
             "value": [],
             "bypasses": [],
@@ -108,11 +74,10 @@
           }
         },
         "currency": {
-          "pp": 0,
-          "gp": 0,
-          "ep": 0,
           "sp": 0,
-          "cp": 0
+          "sz": 0,
+          "ss": 0,
+          "sm": 0
         }
       },
       "creature": {
